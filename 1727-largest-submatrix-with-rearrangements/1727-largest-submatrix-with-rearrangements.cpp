@@ -1,6 +1,9 @@
 class Solution {
 public:
     int largestSubmatrix(vector<vector<int>>& matrix) {
+        ios_base::sync_with_stdio(false);
+		cin.tie(0);
+		cout.tie(0);
         int n = matrix.size(), m = matrix[0].size();
         for (int col = 0; col < m; col++) {
             for (int row = 1; row < n; row++) {
