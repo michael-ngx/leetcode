@@ -4,6 +4,7 @@
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/michael-ngx/leetcode/tree/master/0001-two-sum) |
 | [0202-happy-number](https://github.com/michael-ngx/leetcode/tree/master/0202-happy-number) |
 ## Math
 |  |
@@ -24,6 +25,7 @@
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/michael-ngx/leetcode/tree/master/0001-two-sum) |
 | [0948-sort-an-array](https://github.com/michael-ngx/leetcode/tree/master/0948-sort-an-array) |
 ## Divide and Conquer
 |  |
