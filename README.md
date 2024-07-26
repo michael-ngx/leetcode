@@ -13,10 +13,12 @@
 ## Two Pointers
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/michael-ngx/leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0202-happy-number](https://github.com/michael-ngx/leetcode/tree/master/0202-happy-number) |
 ## String
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/michael-ngx/leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0020-valid-parentheses](https://github.com/michael-ngx/leetcode/tree/master/0020-valid-parentheses) |
 ## Stack
 |  |
@@ -55,4 +57,8 @@
 |  |
 | ------- |
 | [0948-sort-an-array](https://github.com/michael-ngx/leetcode/tree/master/0948-sort-an-array) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0005-longest-palindromic-substring](https://github.com/michael-ngx/leetcode/tree/master/0005-longest-palindromic-substring) |
 <!---LeetCode Topics End-->
