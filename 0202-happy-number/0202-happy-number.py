@@ -7,15 +7,7 @@ class Solution:
             if m in visited:
                 return False
             visited.add(m)
-            summ = 0
-            while m // 10 >0:
-                digit = m %10
-                
-                summ += digit*digit
-                m = m//10
-            summ += (m%10)**2
+            summ = sum([(int(x))**2 for x in str(m)])
             return happy(summ)
 
-
         return happy(n)
-        
