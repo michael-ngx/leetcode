@@ -1,18 +1,21 @@
-class Solution(object):
+class Solution:
     def isHappy(self, n: int) -> bool:
-        slow = self.squared(n)
-        fast = self.squared(self.squared(n))
+        visited = set()
+        def happy(m):
+            if m == 1:
+                return True
+            if m in visited:
+                return False
+            visited.add(m)
+            summ = 0
+            while m // 10 >0:
+                digit = m %10
+                
+                summ += digit*digit
+                m = m//10
+            summ += (m%10)**2
+            return happy(summ)
 
-        while slow!=fast and fast!=1:
-            slow = self.squared(slow)
-            fast = self.squared(self.squared(fast))
 
-        return fast==1
-
-    def squared(self, n):
-        result = 0
-        while n>0:
-            last = n%10
-            result += last * last
-            n = n//10
-        return result
+        return happy(n)
+        
