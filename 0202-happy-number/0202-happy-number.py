@@ -1,13 +1,7 @@
 class Solution:
     def isHappy(self, n: int) -> bool:
         visited = set()
-        def happy(m):
-            if m == 1:
-                return True
-            if m in visited:
-                return False
-            visited.add(m)
-            summ = sum([(int(x))**2 for x in str(m)])
-            return happy(summ)
-
-        return happy(n)
+        while n != 1 and n not in visited:
+            visited.add(n)
+            n = sum([int(i) ** 2 for i in str(n)])
+        return n == 1
